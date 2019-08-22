@@ -18,7 +18,7 @@ Let's get started:
 1) Create a [GitHub](https://github.com) repository containing a hello world [html](https://www.w3schools.com/html/html_basic.asp) file (optional: that links a [css](https://www.w3schools.com/css/default.asp) file to change font size).
 2) Log into the AWS Console 
   3) Navigate to the S3 Service and start creating a bucket
-  4) On the first screen enter a bucket name. They are GLOBALLY unique for all users on the planet so get creative with the bucket name.
+  4) On the first screen enter a bucket name. Note: Bucket names are unique for all users on the planet.
   5) Skip page 2, these options are not too important right now.
   6) On option screen 3, make sure to unselect all of the "Block Public Access" option.
 7) Use [Circleci](https://circleci.com/signup/) to deploy all code changes to the S3 storage bucket when changed. Use the docs to understand [Circleci](https://circleci.com/) then the [example](https://github.com/codersuk/ludum-dare-44/blob/master/.circleci/config.yml) might help you deploy your website to your S3 bucket.
