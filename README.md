@@ -22,7 +22,7 @@ Let's get started:
   5) Skip page 2, these options are not too important right now.
   6) On option screen 3, make sure to unselect all of the "Block Public Access" option.
 7) Use [Circleci](https://circleci.com/signup/) to deploy all code changes to the S3 storage bucket when changed. Use the docs to understand [Circleci](https://circleci.com/) then the [example](https://github.com/codersuk/ludum-dare-44/blob/master/.circleci/config.yml) might help you deploy your website to your S3 bucket.
-8) Add a policy making the bucket publicly accessible. Don't forget to attach the bucket to the policy. You can browse the AWS Management Console S3 service to see the Policy is on the bucket. An example can be found here:
+8) Add a policy making the bucket publicly accessible. An example bucket policy can be found [here]()
 [html](https://www.w3schools.com/html/html_basic.asp)
 9) In AWS Console on S3 browse into your bucket, and select the index.html file. On the right properties tab there is a URL for accessing your bucket.
 10) Commit and push changes to the repository that makes the webpage contain different content or link in a [css](https://www.w3schools.com/css/default.asp) file to style the page. 
