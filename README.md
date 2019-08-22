@@ -12,6 +12,9 @@ In this exercise you're tasked to:
 - Git committing and pushing changes to GitHub 
 - Structure a webpage using [HTML](https://www.w3schools.com/html/html_basic.asp) / [CSS](https://www.w3schools.com/css/default.asp).
 
+## How will it work
+![Design Diagram](https://github.com/StevenR152/AWS-Frontend-on-S3-Exercise/blob/master/S3WebsiteArchitecture.png?raw=true)
+
 ## Steps
 Let's get started:
 
