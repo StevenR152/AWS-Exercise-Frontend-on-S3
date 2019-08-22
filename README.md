@@ -16,10 +16,14 @@ In this exercise you're tasked to:
 Let's get started:
 
 1) Create a [GitHub](https://github.com) repository containing a hello world [html](https://www.w3schools.com/html/html_basic.asp) file (optional: that links a [css](https://www.w3schools.com/css/default.asp) file to change font size).
-2) Log into the AWS Console to create a S3 storage bucket that will hold the website's files. When you are configuring the bucket, make sure to unselect the "Block Public Access" option on screen 3.
-3) Use [Circleci](https://circleci.com/signup/) to deploy all code changes to the S3 storage bucket when changed. Use the docs to understand [Circleci](https://circleci.com/) then the [example](https://github.com/codersuk/ludum-dare-44/blob/master/.circleci/config.yml) might help you deploy your website to your S3 bucket.
-4) Add a policy making the bucket publicly accessible. Don't forget to attach the bucket to the policy. You can browse the AWS Management Console S3 service to see the Policy is on the bucket. An example can be found here:
+2) Log into the AWS Console 
+  3) Navigate to the S3 Service and start creating a bucket
+  4) On the first screen enter a bucket name. They are GLOBALLY unique for all users on the planet so get creative with the bucket name.
+  5) Skip page 2, these options are not too important right now.
+  6) On option screen 3, make sure to unselect all of the "Block Public Access" option.
+7) Use [Circleci](https://circleci.com/signup/) to deploy all code changes to the S3 storage bucket when changed. Use the docs to understand [Circleci](https://circleci.com/) then the [example](https://github.com/codersuk/ludum-dare-44/blob/master/.circleci/config.yml) might help you deploy your website to your S3 bucket.
+8) Add a policy making the bucket publicly accessible. Don't forget to attach the bucket to the policy. You can browse the AWS Management Console S3 service to see the Policy is on the bucket. An example can be found here:
 [html](https://www.w3schools.com/html/html_basic.asp)
-5) In AWS Console on S3 browse into your bucket, and select the index.html file. On the right properties tab there is a URL for accessing your bucket.
-6) Commit and push changes to the repository that makes the webpage contain different content or link in a [css](https://www.w3schools.com/css/default.asp) file to style the page. 
+9) In AWS Console on S3 browse into your bucket, and select the index.html file. On the right properties tab there is a URL for accessing your bucket.
+10) Commit and push changes to the repository that makes the webpage contain different content or link in a [css](https://www.w3schools.com/css/default.asp) file to style the page. 
 
