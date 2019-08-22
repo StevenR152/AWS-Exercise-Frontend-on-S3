@@ -1,4 +1,4 @@
-# [AWS](https://aws.amazon.com/) Frontend Exercise 1: Host a static website in S3 for dirt cheap!
+# Host a static website in amazon's cloud for dirt cheap!
 In this exercise you're tasked to:
 
 - Make a website that is hosted on [AWS](https://aws.amazon.com/) (Amazon Web Services) using Simple Storage Service (S3).
