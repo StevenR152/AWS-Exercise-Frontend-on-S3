@@ -10,7 +10,7 @@ In this exercise you're tasked to:
 - S3 and bucket policies to store files publicly. 
 - [Circleci](https://circleci.com/signup/) as a continuous deployment pipeline. 
 - Git committing and pushing changes to GitHub 
-- Infrastructure as code with terraform. 
+- Setting up AWS resources in aws console
 - Structure a webpage using [HTML](https://www.w3schools.com/html/html_basic.asp) / [CSS](https://www.w3schools.com/css/default.asp).
 
 ## Steps
