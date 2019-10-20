@@ -1,4 +1,4 @@
-# [AWS](https://aws.amazon.com/) Frontend Exercise 1: Host a static website in S3 for dirt cheap!
+# Host a static website in amazon's cloud for dirt cheap!
 In this exercise you're tasked to:
 
 - Make a website that is hosted on [AWS](https://aws.amazon.com/) (Amazon Web Services) using Simple Storage Service (S3).
@@ -12,6 +12,9 @@ In this exercise you're tasked to:
 - Git committing and pushing changes to GitHub 
 - Setting up AWS resources in aws console
 - Structure a webpage using [HTML](https://www.w3schools.com/html/html_basic.asp) / [CSS](https://www.w3schools.com/css/default.asp).
+
+## How will it work
+![Design Diagram](https://github.com/StevenR152/AWS-Frontend-on-S3-Exercise/blob/master/S3WebsiteArchitecture.png?raw=true)
 
 ## Steps
 Let's get started:
