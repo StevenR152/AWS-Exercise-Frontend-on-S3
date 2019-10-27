@@ -28,7 +28,7 @@ Let's get started:
 3) Use [Circleci](https://circleci.com/signup/) to deploy all code changes to the S3 storage bucket when changed. Use the docs to understand [Circleci](https://circleci.com/) then the [example](https://github.com/codersuk/AWS-Exercise-Frontend-on-S3/blob/master/config.yml) might help you deploy your website to your S3 bucket.
 4) So it ran, what happened? Oh it failed! Read the message and see if you can workout why it failed.
 5) CircleCI was unable to locate credentials! What would it need credentials for?
-6) Create a user in AWS Identity and Access Management that is allowed to write into the S3 bucket and CircleCI will use this user. The user must have a policy attached allowing it to write to S3 - see if you can find out which policy you need?
+6) Create a user in AWS Identity and Access Management (IAM) that is allowed to write into the S3 bucket and CircleCI will use this user. The user must have a policy attached allowing it to write to S3 - see if you can find out which policy you need?
 7) In the CircleCI project find the Settings (Cog) and then the AWS Permissions put the Access key and Secret key you were given at the end of creating the user.
 8) Update your S3 bucket in amazon to add a policy making the bucket publicly accessible. Don't forget to attach the bucket to the policy. You can browse the AWS Management Console S3 service to see the Policy is on the bucket. [Example Policy](https://github.com/codersuk/AWS-Exercise-Frontend-on-S3/blob/master/bucketpolicy.json)
 9) GO back to S3 and find the index.html file in your bucket - click on the bucket and find the public URL of the file, click it and view your website.
