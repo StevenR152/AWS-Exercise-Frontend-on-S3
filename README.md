@@ -1,5 +1,9 @@
 # Host a static website in amazon's cloud for dirt cheap!
-In this exercise you're tasked to:
+
+## You want to have a website - for a portfolio or otherwise
+You need the website to be available to friends, family who span all parts of the globe, but you also want to continue to make changes as you improve it. Let's learn about continuous delivery and hosting a static page on Amazon Web Services.
+
+## In this exercise you're tasked to:
 
 - Make a website that is hosted on [AWS](https://aws.amazon.com/) (Amazon Web Services) using Simple Storage Service (S3).
 - Configure AWS infrastructure using The AWS management console.
